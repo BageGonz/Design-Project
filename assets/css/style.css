@@ -15,9 +15,8 @@ body {
     justify-content: space-between;
 }
 
-.header div {
-    flex-direction: column;
-    
+#info {
+    justify-content: space-around;
 }
 
 .header h1 {
@@ -27,7 +26,8 @@ body {
 
 nav{
     background-color: #3b54a6;
-    
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 ul {
@@ -58,6 +58,14 @@ nav ul{
     background-repeat: no-repeat;
     color:white;
     text-align: end;
+    font-weight: bold;
+    justify-content: end;
+}
+
+section div {
+    font-weight: bold;
+    font-size: 0px;
+    text-align: center;
 }
 
 
